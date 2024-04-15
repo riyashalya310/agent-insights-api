@@ -2,6 +2,10 @@ const express=require("express");
 const app=express();
 app.use(express.json());
 
+app.use(cors({
+    origin: 'https://localhost:3000'
+}))
+
 
 const jsonData=[
     {
