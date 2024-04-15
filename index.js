@@ -64,6 +64,6 @@ app.get('/questions',(request,response)=>{
     response.send({jsonData});
 })
 
-app.listen(3000,(request,response)=>{
+app.listen(4000,(request,response)=>{
     console.log("console is running")
 })
